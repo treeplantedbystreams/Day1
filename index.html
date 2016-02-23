@@ -17,17 +17,17 @@
 			</li>
 			
 			<li> 
-			<a href= "Skills()">Skills
+			<a href= "#skills">Skills
 			<script> function store(){alert("This ain't easy!");}
 			</script></a>
 			</li>
 			
 			<li>
-			<a href onclick= "Projects()">Projects<script> function about(){alert("Welcome to the site!");}
+			<a href= "#projects">Projects<script> function about(){alert("Welcome to the site!");}
 			</script></a>
 			</li>
 			
-			<li><a href onclick= "Experience()">Experience
+			<li><a href= "#experience">Experience
 			<script> function features(){alert("A little something for you, Matt!");}
 				</script></a>
 			</li>
@@ -55,7 +55,7 @@
        
        <h3>Technical Skills</h3>
        
-       <div class="skills">
+       <div id="skills">
             <ul>
                 <li>HTML, CSS, JavaScript</li>
                 <li>Jquery, Bootstrap,LESS</li>
@@ -109,26 +109,18 @@
 <div class= "container
 
 <div class= "contact">
-<div class="name"><div style="color:white">Name
-    <form name="text">
-        <input type="text" id="namebox" name="name">
-        </form>
-</div>
-
-<div class="email"><div style="color:white">Email
-    <form name="text">
-        <input type="text" id="emailbox" name="name">
-        </form>
-    
-</div>
-
-<div class= "comments"><div style="color:white">Send a Message 
-    <form name="text">
-        <input type="text" id="commentsbox" size="90"
-        </form
-       </div> 
-<div class="submit">
-<input type= "Submit" name="submit" value="Submit">
+<fieldset>
+<form>
+                               <label>NAME</label><br>
+                                       <input class="inputname" type="text" placeholder="Smith" name="Smith" required><br>
+                               <label>EMAIL</label><br>
+                                       <input class="inputemail" type="email" placeholder="smith@example.com" name="email" required><br>
+                               <label>MESSAGE</label><br>
+                                       <textarea name="contact" id="message" cols="30" rows="10" required></textarea><br>
+                               <input class="button" type="submit" value="Send">
+                           </form>
+                           
+                       </fieldset>
     
 </div>
 </div>

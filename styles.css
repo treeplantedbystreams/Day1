@@ -78,7 +78,7 @@ margin:0;
   display: block;
   padding:25;
 }
-.skills ul{
+#skills ul{
     
       margin:25px 50px 25px 150px;
     position:relative;
@@ -195,3 +195,55 @@ margin:0;
     font-size:12px
 }
 
+width: 450px;
+   height: 350px;
+   background-color: gray;
+   border-radius: 10px;
+   margin: 20px auto 40px;
+}
+
+form {
+   margin-top: 30px;
+}
+
+fieldset label {
+   margin: 0 0 5% 22%;
+   font-size: 12px;
+   font-weight: bold;
+}
+.inputname {
+   width: 240px;
+   height: 25px;
+   border-radius: 5px;
+   margin: 0 0 3% 22%;
+   font-size: 16px;
+   font-style: italic;
+}
+
+.inputemail {
+   width: 240px;
+   height: 25px;
+   border-radius: 5px;
+   margin: 0 0 3% 22%;
+   font-size: 16px;
+   font-style: italic;
+}
+
+textarea {
+   width: 240px;
+   height: 80px;
+   border-radius: 5px;
+   background-color: white;
+   margin: 0 0 0 22%;
+   font-size: 16px;     
+}
+
+.button {
+   width: 240px;
+   height: 25px;
+   border-radius: 5px;
+   margin: 0 0 5% 22%;
+   font-size: 16px;
+   background-color: white;
+   color: gray;
+}
