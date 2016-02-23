@@ -31,9 +31,7 @@ margin:0;
 			color: white;
 		 	text-decoration:none;
          }
-         
-         
-         }	
+         	
 
 		nav a:hover{
 			font-family: Montserrat-Light;
@@ -93,39 +91,38 @@ margin:0;
 
 
 
- .projects ul {margin:25px 50px 25px 50px;
+ .projects ul {margin:25px 100px 25px 100px;
     position:relative;
     text-align: left;
     width:auto;
   display: block;
-  padding:25; }
-  
+  padding:25; 
+  list-style-type: none;
+  }
    .experience ul{
-       margin:25px 50px 25px 85px;
+       margin:25px 100px 25px 120px;
     position:relative;
     text-align: left;
     width:auto;
   display: block;
-  padding-top:10px;
-text-decoration-line: none;
-    text-decoration:none;
+  padding-top:25;
     list-style-type: none;
     
    }
    
    .experience li{
-       width:auto;
+     
   text-decoration:none;
-  margin-left:325px;
+  
 }
 
-#position{
-    font:22px black bold;
-    text-decoration:none;   
+.experience #position{
+    font:22px bo
+    ;
 }
 
 .education{
-    margin:25px 50px 25px 125px;
+    margin:25px 100px 25px 100px;
     position:relative;
     text-align: left;
     width:auto;
@@ -148,31 +145,31 @@ text-decoration-line: none;
 }
 
 .container{
-    height:400px;
+    height:420px;
     width:80%;
     background-color: #82b1ff;
     align:center;
     display:block;
-    margin:50px 120px 50px 120px
+    margin:50px 120px 50px 120px;
+    font-color:white;
 }
 
 .name{
-    font-color:white;
-    text-align: center;
+    
+    align: center;
     margin:30px;
-         
     height: 90px 50px;
 }
 
 .email{
-    font-color:white;
-    text-align: center;
+   
+    align: center;
     margin:20px;
     height: 90px 50px;
 }
 .comments{
-    font-color:white;
-    text-align: center;
+    
+    align: center;
     margin:30px;
     height: 40px;
 }
@@ -186,5 +183,15 @@ text-decoration-line: none;
    font-size:12px;
     height:200px;
     width:500px;
+    font-color:white;
 }
+#namebox{
+    width:500px;
+    font-size:12px
 }
+
+#emailbox{
+    width:500px;
+    font-size:12px
+}
+

@@ -1,5 +1,6 @@
 <!DOCTYPE>
 <html>
+   
     <head>
        <link rel="stylesheet" type="text/css" href="styles.css"> 
  <scrolling-nav.js, jquery.easing.min.js, and scrolling-nav.css>
@@ -10,13 +11,13 @@
        <div class="nav">
            <ul>
 			<li>
-			<a href onclick="About()">About
+			<a href="#about">About
 			<script> function blog(){alert("I did a ton of extra work:-)!");}
 			</script></a>
 			</li>
 			
 			<li> 
-			<a href onclick= "Skills()">Skills
+			<a href= "Skills()">Skills
 			<script> function store(){alert("This ain't easy!");}
 			</script></a>
 			</li>
@@ -46,6 +47,7 @@
            <h3 id="about_me">About Me</h3>
        
        </div>
+       <a id="about"></a>
            <div class="about">
           <p>Communications Strategist crafting solutions-based plans, programs and content that convert ambitious ideas into game-changing results. Mindset of a future business leader... audacious and humble; ideally suited for a mission-focused enterprise where entrepreneurial energy and smart business methodology feed inspiration. At ease when speaking to large groups and managing an audience of 250+; confident leading brainstorming or Q&A sessions with diverse groups. Passionate about teaching aspiring leaders and professionals to embody the principles of their purpose.
           </p>
@@ -67,8 +69,9 @@
            </div>
         <h3 id="projects">Projects</h3>
         <div class= "Projects">
-            
-            <ul style="color:blue">jhisrael.com</h5>
+            <ul>
+            <h5 style="color:blue; bold ">jhisrael.com</h5>
+           
             <li style="color:black">
             Project managed new site active as a donation portal for new and developing donors. This site was also used for collecting data which allowed us to understand the growing relationship we had with new donor which lead us to further our outreach and organizational branding
           </li>
@@ -78,9 +81,9 @@
         <h3 id="experience">Experience</h3>
         
         <div class="Experience">
-              <br>
+              
                 <ul>
-                            <li id="position">Recent Position</li>
+                            <li id="position" style="font-style:bold">Recent Position</li>
                          <li id="work">JH Israel</li>
                         <li id="time"><em>December 2013-August 2015</em></li>
                        <li id="role">Marketing Communications</li>
@@ -101,37 +104,37 @@
                       
         <br>
         </div>
-<h3 id="contact">Contact Me></h3>
+<h3 id="contact">Contact Me</h3>
 
 <div class= "container
 
 <div class= "contact">
-<div class="name">Name
+<div class="name"><div style="color:white">Name
     <form name="text">
-        <input type="text" name="name">
+        <input type="text" id="namebox" name="name">
         </form>
 </div>
 
-<div class="email">Email
+<div class="email"><div style="color:white">Email
     <form name="text">
-        <input type="text" name="name">
+        <input type="text" id="emailbox" name="name">
         </form>
     
 </div>
 
-<div class= "comments">Send a Message 
+<div class= "comments"><div style="color:white">Send a Message 
     <form name="text">
         <input type="text" id="commentsbox" size="90"
         </form
        </div> 
-       <div class="submit">
-        <input type= "Submit" name="submit" value="Submit">
+<div class="submit">
+<input type= "Submit" name="submit" value="Submit">
     
 </div>
 </div>
 </div>
 <br>
-
+<footer></footer>
 
     </body>
    
